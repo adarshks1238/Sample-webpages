@@ -1,0 +1,68 @@
+body {
+    background-color: #2c2c2c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cont {
+    background-color: #DADBDD;
+    height: 240px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    opacity: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+input {
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #2c2c2c;
+}
+
+input[type="text"],
+input[type="password"] {
+    color: rgb(236, 255, 255);
+}
+
+.but-div {
+    display: inline;
+    align-items: center;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+.logbut {
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.logbut:hover {
+    background-color: darkgreen;
+    color: black;
+}
